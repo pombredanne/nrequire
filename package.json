@@ -1,0 +1,37 @@
+{
+  "name": "miro",
+  "version": "0.0.0",
+  "description": "Patches Node.js's require to asynchronously check if your NPM module agrees with your package.json and if you have the latest version from NPM.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdarg/miro.git"
+  },
+  "keywords": [
+    "npm",
+    "check",
+    "version",
+    "module",
+    "modules",
+    "require",
+    "versions"
+  ],
+  "author": "Edmond Meinfelder",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stdarg/miro/issues"
+  },
+  "homepage": "https://github.com/stdarg/miro",
+  "dependencies": {
+    "colors": "*",
+    "is2": "*",
+    "lodash": "*",
+    "npmview": "*"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
