@@ -8,6 +8,23 @@ if you have the latest version from NPM.
 By default, notifications go to standard output via console.log, but you can
 override this behavior by supplying the correct options.
 
+If you use jshint, add `nrequire` to your globals section, e.g.
+
+```JSON
+{
+    [...]
+    "globals": {
+        "nrequire": true
+    }
+}
+```
+
+Or you can add the following to each file where you use `nrequire`:
+
+```JavaScript
+/* global nrequire */
+```
+
 ## Installation
 
     npm install nrequire
