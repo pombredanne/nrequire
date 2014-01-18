@@ -17,14 +17,14 @@ override this behavior by supplying the correct options.
 ```JavaScript
 // this function is optional and a simplification of the default
 // implementation is shown
-function logPackageJson(module, moduleLoc, packVer, modVer) {
+function logPackageJson(module, modVer, moduleLoc, packVer) {
     console.error('Module',module,'version',modVer,'at',moduleLoc,
                   'disagrees with package.json version:',packVer);
 }
 
 // this function is optional and a simplification of the default
 // implementation is shown
-function logNpm(module, moduleLoc, npmVer, modVer) {
+function logNpm(module, modVer, moduleLoc, npmVer) {
     console.error('Module',module,'version',modVer,'at',moduleLoc,
                   'is out of date. The latest version is:',npmVer);
 }
